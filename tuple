@@ -1,0 +1,5 @@
+x=(1,2,3,4)
+y=list(x)
+y[1]=6
+x=tuple(y)
+print(x)
